@@ -184,4 +184,13 @@ body {
     opacity: 0.6;
 }
 
+.videodiv{
+  background-color: black;
+  width: 100%;
+}
+
+.video {
+  margin-left: 20%;
+  z-index: -1; /* Diğer içeriklerin üstünde olmasını engellemek için */
+}
 

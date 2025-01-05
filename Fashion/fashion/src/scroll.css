@@ -1,0 +1,36 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Sayfanın yüksekliği ekran yüksekliği kadar olacak */
+    overflow: hidden; /* Fotoğrafların dışarı taşmasını engelle */
+    margin-bottom: 0%;
+}
+  
+  .photo {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); /* Fotoğrafların dikeyde ortalanması */
+    opacity: 1;
+    transition: all 0.5s ease-in-out; /* Fotoğrafların yumuşak geçişi */
+    width: 40%; /* Fotoğrafların genişliğini küçülttük */
+    margin-left: 10%;
+    max-width: 600px;
+  }
+  
+  .left {
+    left: -200px; /* Sol fotoğrafın başlangıçta dışarıda olması */
+    margin-left: 20%;
+}
+  
+  .right {
+    margin-right: 20%;
+    right: -200px; /* Sağ fotoğrafın başlangıçta dışarıda olması */
+  }
+  
+  .photo img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Fotoğrafın alanı tamamen doldurmasını sağla */
+    border-radius: 10px; /* Fotoğrafların köşelerine yuvarlatma efekti */
+  }
+  
