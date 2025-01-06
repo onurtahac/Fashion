@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import "./scroll.css";
-import photo1 from "./photos/1.png";
-import photo2 from "./photos/2.png";
+import photo5 from "./photos/5.png";
+import photo3 from "./photos/3.png";
 
 function Scroll() {
   const [leftPhotoPosition, setLeftPhotoPosition] = useState(-200); // Sol fotoğrafın başlangıç konumu
@@ -44,13 +44,13 @@ function Scroll() {
         className="photo left"
         style={{ left: `${leftPhotoPosition}px` }} // Sol fotoğrafın dinamik X pozisyonu
       >
-        <img src={photo1} alt="photo1" className="photoImage" />
+        <img src={photo5} alt="photo1" className="photoImage" />
       </div>
       <div
         className="photo right"
         style={{ right: `${rightPhotoPosition}px` }} // Sağ fotoğrafın dinamik X pozisyonu
       >
-        <img src={photo2} alt="photo2" className="photoImage" />
+        <img src={photo3} alt="photo2" className="photoImage" />
       </div>
     </div>  
   );

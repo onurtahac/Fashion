@@ -202,3 +202,132 @@
     opacity: 0.8;
     
   }
+
+  .back4 {
+    border-radius: 20px;
+    margin: 10%;
+    position: absolute;
+    top: -6em;
+    left: -6em;
+    width: 22em;
+    height: 16em;
+    background-color: #9b9898;
+  }
+
+  .text4 {
+    border-radius: 20px;
+  
+    margin: 10%;
+    position: absolute;
+    top: -6em;
+    left: -6em;
+    width: 20em;
+    height:   15em;
+    background-image: url("./Photos/3.png");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    mix-blend-mode: darken;
+    padding: 1em;
+    letter-spacing: 1px;
+    line-height: 1;
+  }
+  
+  
+  .colorscard4{
+      border-radius: 20px;
+      font-size: 4em;
+      font-weight: bold;
+      color: #ffffff;
+      margin: 25% 25%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0.6;
+      
+  }
+
+
+
+
+  .back5 {
+    border-radius: 20px;  
+    margin: 10% 45%;
+    position: absolute;
+    top: -6em;
+    left: -6em;
+    width: 22em;
+    height: 16em;
+    background-color: #9b9898;
+  }
+
+
+  .text5 {
+    margin: 10%;
+    position: absolute;
+    top: -6em;
+    left: 27em;
+    width: 23em;
+    height: 21em;
+    background-image: url("./Photos/4.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    mix-blend-mode: darken;
+    letter-spacing: 1px;
+    line-height: 1;
+  }
+  
+  .colorscard5{
+    font-size: 4em;
+    font-weight: bold;
+    color: #0f0f0f;
+    margin: 25% 20%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    
+  }
+
+
+  .back6 {
+    border-radius: 20px;
+  
+    margin: 10% 80%;
+    position: absolute;
+    top: -6em;
+    left: -6em;
+    width: 22em;
+    height: 16em;
+    background-color: #9b9898;
+  }
+  
+  .text6 {
+    border-radius: 20px;
+    margin: 10%;
+    position: absolute;
+    top: -6em;
+    left: 60em;
+    width: 23em;
+    height: 21em;
+    background-image: url("./Photos/5.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    mix-blend-mode: darken;
+    letter-spacing: 1px;
+    line-height: 1;
+  }
+  
+  .colorscard6{
+    font-size: 4em;
+    font-weight: bold;
+    color: #101b48;
+    margin: 25% 30%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    
+  }

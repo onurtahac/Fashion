@@ -2,6 +2,7 @@ import "./App.css";
 import "./Card.css";
 import Scroll from "./Scroll";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 // Fotoğrafları import et
 import photo1 from "./photos/1.png";
@@ -450,37 +451,37 @@ function App() {
         </div>
       </div>
       <div class="inovativecard">
-        <div class="back">
+        <div class="back4">
           <div class="blob"></div>
           <div class="blob"></div>
           <div class="blob"></div>
           <div class="blob"></div>
           <div class="blob"></div>
         </div>
-        <div class="text">
-          <h1 className="colorscard">Elephant</h1>
-        </div>
-
-        <div class="back2">
-          <div class="blob"></div>
-          <div class="blob"></div>
-          <div class="blob"></div>
-          <div class="blob"></div>
-          <div class="blob"></div>
-        </div>
-        <div class="text2">
-          <h1 className="colorscard2">Lion</h1>
+        <div class="text4">
+          <h1 className="colorscard4">Turtle</h1>
         </div>
 
-        <div class="back3">
+        <div class="back5">
           <div class="blob"></div>
           <div class="blob"></div>
           <div class="blob"></div>
           <div class="blob"></div>
           <div class="blob"></div>
         </div>
-        <div class="text3">
-          <h1 className="colorscard3">Bear</h1>
+        <div class="text5">
+          <h1 className="colorscard5">Jaguar</h1>
+        </div>
+
+        <div class="back6">
+          <div class="blob"></div>
+          <div class="blob"></div>
+          <div class="blob"></div>
+          <div class="blob"></div>
+          <div class="blob"></div>
+        </div>
+        <div class="text6">
+          <h1 className="colorscard6">Shark</h1>
         </div>
       </div>
       <div className="videodiv">
@@ -492,6 +493,9 @@ function App() {
 
       <div>
         <Scroll />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
