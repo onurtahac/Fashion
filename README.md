@@ -29,8 +29,3 @@ At the bottom of the page, a **clean and comprehensive footer** is included. It 
 - **CSS Animations**: For creating dynamic transitions and effects.
 - **HTML5 Video**: To embed high-quality video content.
 - **Responsive Design**: Ensuring compatibility across devices.
-
-## How to Run the Project
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/Fashion.git
